@@ -8,6 +8,9 @@ from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.svm import SVC
 
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
 
 ##################################################################################
 #                             Read the input data                                #
